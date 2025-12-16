@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -133,8 +133,8 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground="noInvert"
           className="bg-background py-20"
-          titleClassName="text-3xl md:text-5xl font-bold text-foreground mb-4"
-          descriptionClassName="text-lg text-foreground/80 mb-12"
+          textBoxTitleClassName="text-3xl md:text-5xl font-bold text-foreground mb-4"
+          textBoxDescriptionClassName="text-lg text-foreground/80 mb-12"
         />
       </div>
 
